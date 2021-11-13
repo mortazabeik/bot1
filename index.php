@@ -38,4 +38,4 @@ function sendReply($userid,$text,$msgid){
         file_get_contents($url);
     }
 
-    $telegram->sendMessage($userid,json_encode($telegram));
+    $telegram->sendMessage($userid,'json_encode($telegram)');
